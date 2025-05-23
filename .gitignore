@@ -24,22 +24,57 @@ migrate_working_dir/
 #.vscode/
 
 # Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
 .dart_tool/
+.packages
+.pub/
+build/
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+.flutter-versions
+.metadata
 
-# Symbolication related
-app.*.symbols
+# VS Code/JetBrains/Android Studio
+.idea/
+.vscode/
+*.iml
 
-# Obfuscation related
-app.*.map.json
+# macOS
+macos/Flutter/ephemeral/
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# iOS
+ios/Flutter/Flutter.framework/
+ios/Pods/
+ios/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/local.properties
+android/Flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# Linux/Windows build
+linux/Flutter/ephemeral/
+windows/Flutter/ephemeral/
+
+# Otros
+letrilandia/.dart_tool/
+letrilandia/build/
+letrilandia/.idea/
+letrilandia/.vscode/
+letrilandia/*.iml
+letrilandia/macos/Flutter/ephemeral/
+letrilandia/ios/Flutter/Flutter.framework/
+letrilandia/ios/Pods/
+letrilandia/ios/Flutter/ephemeral/
+letrilandia/android/.gradle/
+letrilandia/android/local.properties
+letrilandia/android/Flutter/ephemeral/
+letrilandia/web/.dart_tool/
+letrilandia/linux/Flutter/ephemeral/
+letrilandia/windows/Flutter/ephemeral/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
