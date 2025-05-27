@@ -1,0 +1,36 @@
+name: letrilandia
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  audioplayers: ^5.2.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/letrilandia_fondo.png
+    - assets/musica.mp3
+    - assets/intro.mp3
+    - assets/efecto.mp3
+    - assets/fondo_pp2.png
+    - assets/creditos_1.png
+    - assets/audio/
+    - assets/images/juego_1_icon.png
+    - assets/images/juego_2_icon.png
