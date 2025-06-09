@@ -56,7 +56,7 @@ class _Juego1State extends State<Juego1> {
                         ),
                         elevation: 6,
                       ),
-                      onPressed: () => _reproducirLetra(letra),
+                      onPressed: () => _reproducirLetra(letra.toLowerCase()),
                       child: Text(
                         letra,
                         style: TextStyle(
